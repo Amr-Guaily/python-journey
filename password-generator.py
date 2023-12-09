@@ -9,7 +9,7 @@ letters_length = int(input("Enter the number of letters in the password: "))
 numbers_length = int(input("Enter the number of numbers in the password: "))
 symbols_length = int(input("Enter the number of symbols in the password: "))
 
-if (letters_length + numbers_length + symbols_length) > password_length:
+if (letters_length + numbers_length + symbols_length) != password_length:
     print("The total number of characters in the password should be equal to the sum of letters, numbers, and symbols")
     exit()
 
